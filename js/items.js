@@ -338,12 +338,12 @@
 	
 	// load the cube textures
 	var urls = [
-		"panorama3.png",
-		"panorama1.png",
-		"panorama4.png",
-		"panorama5.png",
-		"panorama2.png",
-		"panorama0.png"
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama3.png",
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama1.png",
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama4.png",
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama5.png",
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama2.png",
+		"https://raw.github.com/SirFizX/webgl/master/images/panorama0.png"
 	];
 	var textureCube = THREE.ImageUtils.loadTextureCube( urls );
 	
@@ -612,7 +612,7 @@
 		}, 0);
 	};
 	
-	items.src = "items.png";
+	items.src = "https://raw.github.com/SirFizX/webgl/master/images/items.png";
 	
 	var dialcanvas = global.document.createElement('canvas');
 	dialcanvas.width = 16;
@@ -623,7 +623,7 @@
 		updateDial();
 		setInterval(updateDial, 5*60*1000);
 	};
-	dial.src = "dial.png";
+	dial.src = "https://raw.github.com/SirFizX/webgl/master/images/dial.png";
 	
 	
 	var skin = new Image();
@@ -634,6 +634,6 @@
 		charMaterialTrans.map.needsUpdate = true;
 	};
 	
-	skin.src = "char.png";
+	skin.src = "https://raw.github.com/SirFizX/webgl/master/images/char.png";
 	
 }(window));

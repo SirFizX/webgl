@@ -50,7 +50,7 @@ var Creeper = (function (global) {
 		material.map.needsUpdate = true;
 	};
 	
-	skin.src = "creeper.png";
+	skin.src = "https://raw.github.com/SirFizX/webgl/master/images/creeper.png";
 	
 	var tileUvWidth = 1/64;
 	var tileUvHeight = 1/32;
