@@ -51,6 +51,7 @@ var Creeper = (function (global) {
 	};
 	
 	skin.src = "https://raw.github.com/SirFizX/webgl/master/images/creeper.png";
+	skin.crossOrigin = "Anonymous";
 	
 	var tileUvWidth = 1/64;
 	var tileUvHeight = 1/32;
