@@ -338,12 +338,12 @@
 	
 	// load the cube textures
 	var urls = [
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama3.png",
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama1.png",
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama4.png",
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama5.png",
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama2.png",
-		"https://raw.github.com/SirFizX/webgl/master/images/panorama0.png"
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama3.png",
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama1.png",
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama4.png",
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama5.png",
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama2.png",
+		//"https://raw.github.com/SirFizX/webgl/master/images/panorama0.png"
 	];
 	var textureCube = THREE.ImageUtils.loadTextureCube( urls );
 	
