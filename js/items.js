@@ -624,7 +624,7 @@
 		setInterval(updateDial, 5*60*1000);
 	};
 	dial.src = "https://raw.github.com/SirFizX/webgl/master/images/dial.png";
-	
+	dial.crossOrigin = "Anonymous";
 	
 	var skin = new Image();
 	skin.onload = function () {
@@ -635,5 +635,6 @@
 	};
 	
 	skin.src = "https://raw.github.com/SirFizX/webgl/master/images/char.png";
+	skin.crossOrigin = "Anonymous";
 	
 }(window));
